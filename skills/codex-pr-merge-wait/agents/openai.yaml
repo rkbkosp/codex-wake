@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex PR Merge Wait"
+  short_description: "Wait for a GitHub PR merge, then resume Codex"
+  default_prompt: "Use $codex-pr-merge-wait to register a durable wait for this GitHub pull request to merge, then resume the next authorized stage."

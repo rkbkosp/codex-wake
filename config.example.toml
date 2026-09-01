@@ -1,0 +1,8 @@
+# Copy to ~/.codex-wait/config.toml and chmod 600.
+# Never commit real device tokens.
+
+relay_url = "wss://relay.example.com/v1/ws"
+device_id = "mac-main"
+device_token = "replace-with-a-long-random-token"
+codex_binary = "/absolute/path/to/codex"
+queue_retry_max_seconds = 300

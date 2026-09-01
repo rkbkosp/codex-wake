@@ -1,0 +1,38 @@
+# Build and test output
+/bin/
+/dist/
+*.test
+coverage*.out
+*.prof
+
+# Local runtime state
+/.codex-wait/
+*.db
+*.db-shm
+*.db-wal
+*.sock
+
+# Local configuration and environment overrides
+/config.toml
+/config.local.toml
+.env
+.env.*
+!.env.example
+!*.env.example
+
+# Credentials, private keys, and signing material
+/.secrets/
+/secrets/
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Editor and operating-system metadata
+.DS_Store
+.idea/
+.vscode/

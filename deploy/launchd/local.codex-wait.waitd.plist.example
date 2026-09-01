@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.codex-wait.waitd</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/ABSOLUTE/PATH/TO/codex-waitd</string>
+    <string>--config</string>
+    <string>/Users/REPLACE/.codex-wait/config.toml</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>StandardOutPath</key>
+  <string>/Users/REPLACE/.codex-wait/logs/waitd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/REPLACE/.codex-wait/logs/waitd.error.log</string>
+</dict>
+</plist>
