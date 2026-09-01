@@ -22,11 +22,6 @@ jobs:
           go-version-file: go.mod
           cache: true
 
-      - name: E2E fail-once gate
-        run: |
-          echo "Intentional first-revision failure for the Codex Wake acceptance test."
-          exit 1
-
       - name: Test
         run: go test ./...
 
